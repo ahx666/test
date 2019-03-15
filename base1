@@ -52,13 +52,11 @@ type
       TCheckTypeSet = set of TCheckType;
 
 
-  //---------------------------------------- Check ------------------------------------------//
   TCheckItem = class     // - OK - //
   end;
 
   TCheckItemArray = array of TCheckItem;
 
-  //---- TODO ---- выбор варианта проверки сделать по кнопкам перед началом проверки.
 
   TRollCheck = class (TCheckItem)   // - OK - // проверка броска на скил или бой
     fValue: Byte;
