@@ -8,7 +8,7 @@ uses
 type
   TSkill = class      // - OK - // можно сделать чтоб скилы влияли на разные способности - атаку, крит, защиту и т.п.
     fName: string;
-    fIsMelee: boolean; // можно юзать при боевой проверке ----- тест гита
+    fIsMelee: boolean; // можно юзать при боевой проверке ----- тест гита ---- второе изменение !!!!
     constructor Create(Name: string; IsMelee: boolean);
   end;
 
